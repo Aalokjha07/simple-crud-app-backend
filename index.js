@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 
 // routes
-app.use('/api/products' , ProductRoute);
+app.use('/api/Reports' , ReportRoute);
 
 
 app.get('/', (req , res) =>{
